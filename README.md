@@ -18,13 +18,20 @@ add-repo:
 ```apt install mariadb-server mariadb-client -y```
 
 ```mysql_secure_installation```
-				>>enter
+				enter
+    
 						Switch to unix_socket authentication [Y/n] n
+      
 						Change the root password? [Y/n] y     enter password
+      
 						Remove anonymous users? [Y/n] y
+      
 						Disallow root login remotely? [Y/n] y
+      
 						Remove test database and access to it? [Y/n] y
+      
 						Reload privilege tables now? [Y/n] y
+      
 						
 						
 ```cd /usr/share && wget https://github.com/Sv00p/php7.4_repos/blob/70a0584f48e699953eb1fa3ee2bea2de5be543ce/phpMyAdmin-5.2.1-all-languages.zip -O phpmyadmin.zip```
@@ -62,7 +69,7 @@ Alias /phpmyadmin /usr/share/phpmyadmin
 
 Save your changes to the configuration by pressing CTRL + X, then hit the "Y" key followed by enter.
 
-`
+
 ```a2enconf phpmyadmin && a2enmod rewrite```
 
 
