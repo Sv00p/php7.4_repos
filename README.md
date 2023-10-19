@@ -39,6 +39,7 @@ add-repo:
 ```unzip phpmyadmin.zip && rm phpmyadmin.zip```
 
 Now you have to rename the directory to "phpmyadmin". Use this command (Теперь вам нужно переименовать каталог в «phpmyadmin». Используйте эту команду)
+
 ```mv phpMyAdmin-*-all-languages phpmyadmin```
 
 ```chmod -R 0755 phpmyadmin```
