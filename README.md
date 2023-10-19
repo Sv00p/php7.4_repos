@@ -2,7 +2,7 @@
 to add the key needed for the PHP repository.
 install debian 12 php 7.4 phpmyadmin mysql apache2
 
-apt update && apt upgrade -y && apt install sudo -y && apt install mc -y && apt install htop -y && apt install curl -y && apt install nmap -y && apt install tcpdump -y && apt install cntlm -y && apt install jo -y && apt install pigz -y && apt install rsyslog -y && apt install sl -y && apt install screenfetch -y && apt install chrony -y  && apt install fping -y && apt install smartmontools -y && apt install hwinfo -y && apt install cpu-checker -y && apt install cifs-utils && apt install lnav && apt install snmp && apt install snmp-mibs-downloader -y && apt install strace -y && apt install xfsdump -y && apt install rsync -y 
+```apt update && apt upgrade -y && apt install sudo -y && apt install mc -y && apt install htop -y && apt install curl -y && apt install nmap -y && apt install tcpdump -y && apt install cntlm -y && apt install jo -y && apt install pigz -y && apt install rsyslog -y && apt install sl -y && apt install screenfetch -y && apt install chrony -y  && apt install fping -y && apt install smartmontools -y && apt install hwinfo -y && apt install cpu-checker -y && apt install cifs-utils && apt install lnav && apt install snmp && apt install snmp-mibs-downloader -y && apt install strace -y && apt install xfsdump -y && apt install rsync -y ```
 
 
 
