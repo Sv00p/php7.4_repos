@@ -7,7 +7,7 @@ install debian 12 php 7.4 phpmyadmin mysql apache2
 add-key:
 
 ```curl -fsSL https://github.com/Sv00p/php7.4_repos.git -o /usr/share/keyrings/php-archive-keyring.gpg```
-
+```curl -fsSL https://packages.sury.org/php/apt.gpg -o /usr/share/keyrings/php-archive-keyring.gpg```
 add-repo:
 
 ```echo "deb [signed-by=/usr/share/keyrings/php-archive-keyring.gpg] https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list```
